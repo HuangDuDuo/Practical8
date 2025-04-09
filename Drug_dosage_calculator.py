@@ -10,7 +10,7 @@ def calculate_dosage(weight,strength):
         stre=250
     else:
         return ('Error strength of paracetamol')
-    dosage=weight*dose/stre
+    dosage=weight*dose*5/stre
     b='The drug dosage is '+str(dosage)+' ml.'
     return (b)
 a=calculate_dosage(wei,stren)
